@@ -25,6 +25,7 @@ main {
 
 .single-price-grid-component {
     border-radius: 8px;
+    margin: 1.5em 0;
     overflow: hidden;
     text-wrap: wrap;
     max-width: 19.438em;
@@ -39,17 +40,23 @@ main {
 
 .our-community .text-preset-2 {
     color: var(--teal-500);
+    margin-block-end: 1.2em;
 }
 
 .our-community .text-preset-3 {
     color: var(--green-400);
+    margin-block-end: 0.5em;
 }
 
 .our-community .text-preset-4-reg {
     color: var(--gray-500);
+    max-width: 25ch;
 }
 
+
+
 /* || SUBSCRIPTION || */
+
 
 .subscription,
 .why-us {
@@ -61,14 +68,43 @@ main {
     background-color: var(--teal-500);
 }
 
+.subscription .text-preset-3 {
+    margin-block-end: 1em;
+}
+
+.price-container p:first-child {
+    display: flex;
+}
+
 .subscription span.text-preset-4-reg {
+    align-self: center;
+    margin-inline-start: 0.5em;
     opacity: 50%;
+}
+
+.price-container {
+    margin-block-end: 1.8em;
+}
+
+/* SIGN UP link/button */
+
+.sign-up-btn {
+    background-color: var(--green-400);
+    border-radius: 0.3em;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 9.7%);
+    display: block;
+    padding: 0.8em 0;
+    text-align: center;
 }
 
 /* || WHY US || */
 
 .why-us {
     background-color: var(--teal-400);
+}
+
+.why-us .text-preset-3 {
+    margin-block-end: 1em;
 }
 
 .why-us ul {
