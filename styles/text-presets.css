@@ -1,0 +1,104 @@
+/* *** TEXT PRESETS *** */
+
+@font-face {
+    font-display: swap;
+    font-family: "Karla Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url('./fonts/karla/Karla-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Karla Regular";
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/karla/Karla-VariableFont_wght.ttf') format('truetype');
+}
+
+html {
+    font-size: 16px;
+}
+
+/* |||| ROOT |||| */
+
+:root {
+    /* || FONT-SIZE || */
+    /* preset-1 32px */
+    --preset-1: 2rem;
+    /* preset-2 24px */
+    --preset-2: 1.5rem;
+    /* preset-3 18px */
+    --preset-3: 1.125rem;
+    /* preset-4 16px */
+    --preset-4: 1rem;
+    /* preset-5 14px */
+    --preset-5: 0.875rem;
+}
+
+/* |||| FONT-FAMILY |||| */
+
+.text-preset-1,
+.text-preset-2,
+.text-preset-3,
+.text-preset-4-bold {
+    font-family: "Karla Bold", Arial, sans-serif;
+}
+
+.text-preset-4-reg,
+.text-preset-5 {
+    font-family: "Karla Regular", Arial, sans-serif;
+}
+
+/* |||| FONT SIZE & LETTER SPACING |||| */
+
+.text-preset-1 {
+    font-size: var(--preset-1);
+    /* letter-spacing: 32px; */
+    letter-spacing: -0.0125em;
+}
+
+.text-preset-2 {
+    font-size: var(--preset-2);
+}
+
+.text-preset-3 {
+    font-size: var(--preset-3);
+}
+
+.text-preset-4-bold,
+.text-preset-4-reg {
+    font-size: var(--preset-4);
+}
+
+.text-preset-2,
+.text-preset-3,
+.text-preset-4-bold {
+    letter-spacing: -0.016em;
+}
+
+.text-preset-4-reg {
+    /* letter-spacing: -0.5px; */
+    letter-spacing: -0.031em;
+}
+
+.text-preset-5 {
+    font-size: var(--preset-5);
+}
+
+/* |||| LINE HEIGHT |||| */
+
+.text-preset-1,
+.text-preset-2,
+.text-preset-3 {
+    line-height: 115%;
+}
+
+.text-preset-4-bold,
+.text-preset-5 {
+    line-height: 145%;
+}
+
+.text-preset-4-reg {
+    line-height: 165%;
+}

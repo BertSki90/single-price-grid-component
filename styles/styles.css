@@ -1,0 +1,76 @@
+/* *** STYLES *** */
+
+/* |||| ROOT |||| */
+
+:root {
+    /* || COLORS || */
+    --gray-500: rgb(154, 167, 190);
+    --green-400: rgb(192, 223, 51);
+    --teal-500: rgb(42, 179, 177);
+    --teal-400: rgb(74, 191, 189);
+    --teal-100: rgb(230, 239, 245);
+    --white: rgb(255, 255, 255);
+}
+
+/* |||| GENERAL |||| */
+
+main {
+    background-color: var(--teal-100);
+    display: flex;
+    justify-content: center;
+    min-width: 100vh;
+}
+
+/* |||| CARD |||| */
+
+.single-price-grid-component {
+    border-radius: 8px;
+    overflow: hidden;
+    text-wrap: wrap;
+    max-width: 19.438em;
+}
+
+/* || OUR COMMUNITY || */
+
+.our-community {
+    background-color: var(--white);
+    padding: 2.125em 2.281em;
+}
+
+.our-community .text-preset-2 {
+    color: var(--teal-500);
+}
+
+.our-community .text-preset-3 {
+    color: var(--green-400);
+}
+
+.our-community .text-preset-4-reg {
+    color: var(--gray-500);
+}
+
+/* || SUBSCRIPTION || */
+
+.subscription,
+.why-us {
+    color: var(--white);
+    padding: 1.5em 2.281em;
+}
+
+.subscription {
+    background-color: var(--teal-500);
+}
+
+.subscription span.text-preset-4-reg {
+    opacity: 50%;
+}
+
+/* || WHY US || */
+
+.why-us {
+    background-color: var(--teal-400);
+}
+
+.why-us ul {
+    opacity: 75%;
+}
