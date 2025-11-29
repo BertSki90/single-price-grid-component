@@ -17,8 +17,8 @@
 main {
     background-color: var(--teal-100);
     display: flex;
+    min-height: 100vh;
     justify-content: center;
-    min-width: 100vh;
 }
 
 /* |||| CARD |||| */
@@ -40,7 +40,7 @@ main {
 
 .our-community .text-preset-2 {
     color: var(--teal-500);
-    margin-block-end: 1.2em;
+    margin-block-end: 0.9em;
 }
 
 .our-community .text-preset-3 {

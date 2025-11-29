@@ -3,5 +3,51 @@
 /* |||| TABLET |||| */
 
 @media screen and (min-width: 25em) {
+
+    /* || GENERAL || */
+
+    main {
+        align-items: center;
+    }
     
+    /* || CARD || */
+
+    .single-price-grid-component {
+        display: grid;
+        grid-template-areas: 
+        "our-community      our-community"
+        "subscription       why-us";
+        max-width: 40.813em;
+    }
+
+    /* || OUR COMMUNITY || */
+
+    .our-community {
+        grid-area: our-community;
+    }
+
+    .our-community .text-preset-4-reg {
+        max-width: 55ch;
+    }
+
+    /* || SUBSCRIPTION || */
+
+    .subscription,
+    .why-us {
+        padding: 2.563em 2.469em;
+    }
+
+    .subscription {
+        grid-area: subscription;
+    }
+
+    /* .subscription .text-preset-3 {
+        margin-block-start: 2.563em;
+    } */
+
+    /* || WHY US || */
+
+    .why-us {
+        grid-area: why-us;
+    }
 }
