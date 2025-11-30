@@ -2,7 +2,7 @@
 
 /* |||| TABLET |||| */
 
-@media screen and (min-width: 25em) {
+@media screen and (min-width: 36em) {
 
     /* || GENERAL || */
 
@@ -40,10 +40,6 @@
     .subscription {
         grid-area: subscription;
     }
-
-    /* .subscription .text-preset-3 {
-        margin-block-start: 2.563em;
-    } */
 
     /* || WHY US || */
 

@@ -21,6 +21,20 @@ main {
     justify-content: center;
 }
 
+/* || SCREEN READER || */
+
+.sr-only {
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
 /* |||| CARD |||| */
 
 .single-price-grid-component {
@@ -109,4 +123,21 @@ main {
 
 .why-us ul {
     opacity: 75%;
+}
+
+/* |||| FOOTER |||| */
+
+.attribution {
+    padding: 2em;
+    text-align: center;
+}
+
+.attribution a {
+    color: var(--teal-500);
+}
+
+.attribution a:hover,
+.attribution a:active,
+.attribution a:visited {
+    text-decoration: underline;
 }
