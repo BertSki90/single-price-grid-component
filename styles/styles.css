@@ -41,7 +41,6 @@ main {
     border-radius: 8px;
     margin: 1.5em 0;
     overflow: hidden;
-    text-wrap: wrap;
     max-width: 19.438em;
 }
 
